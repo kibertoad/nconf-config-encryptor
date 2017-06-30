@@ -1,0 +1,23 @@
+{
+  "name": "nconf-config-encryptor",
+  "version": "1.0.0",
+  "description": "Command line tool for encrypting files using nconf",
+  "main": "bin/encrypt.js",
+  "homepage": "https://github.com/kibertoad/nconf-config-encryptor",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kibertoad/nconf-config-encryptor.git"
+  },
+  "bin": {
+    "encrypt-config": "bin/encrypt-config.js"
+  },
+  "keywords": [
+    "encryption",
+    "config"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0",
+    "nconf": "0.8.4"
+  },
+  "bundledDependencies" : ["commander", "nconf"]
+}

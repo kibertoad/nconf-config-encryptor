@@ -1,0 +1,6 @@
+src/
+.idea/
+.editorconfig
+.npmrc
+.npmignore
+README.md
